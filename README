@@ -1,0 +1,22 @@
+Text slides for the terminal.
+
+Install textorama anywhere in your path,
+then create a file with your slides:
+
+    $ cat slides
+    ---
+    Hello world
+    ---
+    Enjoy the presentation
+    ---
+    Questions?
+    ---
+    Thanks!
+
+Then proceed to display the slides:
+
+    $ textorama ./slides
+
+As it opens the slides with less, you can
+move to the next page with 'f' and to the
+previous page with 'b'.

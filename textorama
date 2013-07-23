@@ -1,0 +1,17 @@
+#!/usr/bin/env rc
+
+hi = `{ expr `{tput lines} - 1 }
+
+cp $1 $1.ts
+
+ed -s $1.ts <<EOF
+1i
+.pl $hi^v
+.
+g/^---$/s//.bp\
+.sp 2\
+.ce
+wq
+EOF
+
+nroff $1.ts | less

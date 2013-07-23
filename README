@@ -20,3 +20,16 @@ Then proceed to display the slides:
 As it opens the slides with less, you can
 move to the next page with 'f' and to the
 previous page with 'b'.
+
+Dependencies: textorama requires the rc
+shell from Plan 9, the ed editor, and
+nroff. Chances are the only thing missing
+in your environment is rc, which is very
+recommended if you like shell scripting.
+
+Mac users can install rc with Homebrew:
+
+    $ brew install rc
+
+For Linux users, `apt-get install rc` or
+similar should do the trick.

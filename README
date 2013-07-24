@@ -33,3 +33,12 @@ Mac users can install rc with Homebrew:
 
 For Linux users, `apt-get install rc` or
 similar should do the trick.
+
+If you want a plain /bin/sh version of
+this tool, grab it from this URL:
+
+https://gist.github.com/soveran/6067374
+
+But then consider that the whole point
+of this tool is to trick you to start
+using rc shell for your scripts.
